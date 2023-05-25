@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kimchi Grandma Restaurant</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+
+    <!--
+
+Tooplate 2129 Crispy Kitchen
+
+https://www.tooplate.com/view/2129-crispy-kitchen
+
+-->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html">
+                Kimchi Grandma Restaurant
+            </a>
+
+            <div class="d-lg-none">
+                <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal"
+                    data-bs-target="#BookingModal">Reservation</button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">Our Updates</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-none d-lg-block">
+                <button type="button" class="custom-btn btn btn-danger" data-bs-toggle="modal"
+                    data-bs-target="#BookingModal">Reservation</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 col-12 m-auto">
+                        <div class="heroText">
+
+                            <h1 class="text-white mb-lg-5 mb-3">Korean Restaurant in Carnegie</h1>
+
+                            <div class="c-reviews my-3 d-flex flex-wrap align-items-center">
+                                <p class="text-white w-100">Opening at <strong>11:30</strong> tomorrow</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-12">
+                        <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide"
+                            data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-image-wrap">
+                                        <img src="images/cover.jpg" class="img-fluid carousel-image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="overlay"></div>
+        </section>
+
+        <section class="menu section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <h2 class="text-center mb-lg-5 mb-4">Special Menus</h2>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu1.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">BGB10</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Beef Galbi Deal</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>10.00</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu2.jpg" class="img-fluid menu-image" alt="">
+
+                                <!-- <span class="menu-tag bg-warning"></span> -->
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">12 pieces Takoyaki</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>3.00</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">50 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu3.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">SD30</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Korean Sidedishes</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>0</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">86 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu4.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">New</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Korean Fried Chicken</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>22</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">44 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu5.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">kimsoup</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Hot Kimchi Soup</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>20.50</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu6.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">PORKLEG</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Spicy Pork Leg</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>25.90</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">64 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu7.jpg" class="img-fluid menu-image" alt="">
+
+                                <!-- <span class="menu-tag bg-warning"></span> -->
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">braised Pork leg</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>22</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">44 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu8.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning"></span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Korean BBQ Bento</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>9.90</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">4.3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">102 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="menu-thumb">
+                            <div class="menu-image-wrap">
+                                <img src="images/menu/menu9.jpg" class="img-fluid menu-image" alt="">
+
+                                <span class="menu-tag bg-warning">Takeaway Pickup Only</span>
+                            </div>
+
+                            <div class="menu-info d-flex flex-wrap align-items-center">
+                                <h4 class="mb-0">Korean BBQ Bento</h4>
+
+                                <span class="price-tag bg-white shadow-lg ms-4"><small>$</small>9.90</span>
+
+                                <div class="d-flex flex-wrap align-items-center w-100 mt-2">
+                                    <h6 class="reviews-text mb-0 me-3">3/5</h6>
+
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star-fill reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                        <i class="bi-star reviews-icon"></i>
+                                    </div>
+
+                                    <p class="reviews-text mb-0 ms-4">64 Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="BgImage"></section>
+
+        <section class="news section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <h2 class="text-center mb-lg-5 mb-4">Gallery</h2>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery1.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery2.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery3.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery4.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
+                            <a href="news-detail.html">
+                                <img src="images/gallery5.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery6.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery7.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery8.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="news-thumb mb-4">
+                            <a href="news-detail.html">
+                                <img src="images/gallery/gallery9.jpg" class="img-fluid news-image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer section-padding">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12">
+                    <h4 class="text-white mb-4 me-5">Kimchi Grandma Restaurant</h4>
+                </div>
+
+                <div class="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Location</h6>
+
+                    <p>125 Koornang Road Carnegie VIC 3163 Australia</p>
+
+                    <a href="https://www.google.com.au/maps/place/125+Koornang+Rd,+Carnegie+VIC+3163/@-37.8885231,145.0543965,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad66a24521b99eb:0xcf8fe9ea39a0638c!8m2!3d-37.8885274!4d145.0569714!16s%2Fg%2F11c2hvf9j3"
+                        class="custom-btn btn btn-dark mt-2">Directions</a>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Opening Hours</h6>
+
+                    <p class="mb-2">Mon: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+                    <p class="mb-2">Tue: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+                    <p class="mb-2">Wed: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+                    <p class="mb-2">Thu: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+                    <p class="mb-2">Fri: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+                    <p class="mb-2">Sat: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+                    <p class="mb-2">Sun: 11:30 am - 3:00 pm, 5:00 - 9:30 pm</p>
+
+                    <p>Tel: <a href="tel: (03) 9569 2399" class="tel-link">(03) 9569 2399</a></p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
+                    <h6 class="text-white mb-lg-4 mb-3">Social</h6>
+
+                    <ul class="social-icon">
+                        <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                        <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                        <li><a href="https://twitter.com/search?q=tooplate.com&src=typed_query&f=live" target="_blank"
+                                class="social-icon-link bi-twitter"></a></li>
+
+                        <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                    </ul>
+
+                    <p class="copyright-text tooplate-mt60">Copyright © 2023 Kimchi Grandma Restaurant Co., Ltd.
+                        <br>Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a>
+                    </p>
+
+                </div>
+
+            </div><!-- row ending -->
+
+        </div><!-- container ending -->
+
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="BookingModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="mb-0">Reserve a table</h3>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body d-flex flex-column justify-content-center">
+                    <div class="booking">
+
+                        <form onsubmit="requestHandler()" class="booking-form row" role="form" action="#" method="post">
+                            <div class="col-lg-6 col-12">
+                                <label for="name" class="form-label">Full Name</label>
+
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name"
+                                    required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <label for="email" class="form-label">Email Address</label>
+
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                                    placeholder="your@email.com" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <label for="phone" class="form-label">Phone Number</label>
+
+                                <input type="telephone" name="phone" id="phone" class="form-control"
+                                    placeholder="123-456-7890" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <label for="people" class="form-label">Number of persons</label>
+
+                                <input type="text" name="people" id="people" class="form-control"
+                                    placeholder="2 persons" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <label for="date" class="form-label">Date</label>
+
+                                <input type="date" name="date" id="date" value="" class="form-control" required>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <label for="time" class="form-label">Time</label>
+
+                                <select class="form-select form-control" name="time" id="time">
+                                    <option value="5" selected>5:00 PM</option>
+                                    <option value="6">6:00 PM</option>
+                                    <option value="7">7:00 PM</option>
+                                    <option value="8">8:00 PM</option>
+                                    <option value="9">9:00 PM</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="message" class="form-label">Special Request</label>
+
+                                <textarea class="form-control" rows="4" id="message" name="message"
+                                    placeholder=""></textarea>
+                            </div>
+
+                            <div class="col-lg-4 col-12 ms-auto">
+                                <button type="submit" class="form-control">Submit
+                                    Request</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modal-footer"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
