@@ -41,10 +41,16 @@ https://www.tooplate.com/view/2129-crispy-kitchen
   --font-weight-bold: 700;
 }
 
+* {
+  background-color: #eaeaea;
+}
+
 body {
   background: var(--white-color);
   font-family: var(--body-font-family);
   position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Tsukimi Rounded', sans-serif;
 }
 
 /*---------------------------------------
